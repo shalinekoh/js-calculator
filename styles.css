@@ -1,0 +1,87 @@
+/*
+HEX: #e4d1d1 light pink
+HEX: #b9b0b0 brown
+HEX: #d9ecd0 light green
+HEX: #77a8a8 darker green
+*/
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: cornsilk;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    background-color: #77a8a8;
+    border-radius: 5px;
+    width: 400px;
+    height: 600px;
+    /* margin: 16px; */
+    gap: 16px;
+    border: cadetblue 16px solid;
+}
+
+.operators {
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+
+.down, .bottom {
+    display: flex;
+    gap: 16px;
+}
+
+.up {
+    background-color: #e4d1d1;
+    width: 100%;
+    text-align: right;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+.display {
+    font-weight: bold;
+    font-size: 56px;
+    box-sizing: border-box;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+
+button {
+    width: 80px;
+    height: 80px;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #d9ecd0;
+}
+
+#AC {
+    background-color: red;
+    width: 176px;
+    /* margin-bottom: 10px; */
+}
+
+.numbers .row{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+button:hover {
+    opacity: 50%;
+}
